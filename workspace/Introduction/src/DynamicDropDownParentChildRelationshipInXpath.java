@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+// Dyanmic Drop Down Parent Child Relationship In XPATH
 public class DynamicDropDownParentChildRelationshipInXpath {
 
 		public static void main(String[] args) throws InterruptedException 
@@ -13,7 +14,6 @@ public class DynamicDropDownParentChildRelationshipInXpath {
 			Thread.sleep(2000);
 			//driver.findElement(By.xpath("(//a[@value ='CJB'])[2]")).click();
 			driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value ='CJB']")).click();
-
 	  }
 
 }
